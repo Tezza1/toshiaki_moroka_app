@@ -1,0 +1,308 @@
+// VARIABLES
+$main_dark_color: rgb(89,50,33);
+$main_light_color: rgb(232,212,161);
+$logo-color: rgb(75, 75, 75);
+$impact-color: rgb(54,229,192);
+
+/* COLORS */
+body {
+  background-color: rgb(255, 255, 247);
+}
+
+#top-nav {
+    background-color: $main_light_color;
+    border-bottom: 2px solid $impact-color;
+}
+
+footer {
+    border-top: 2px solid $impact-color;
+    background-color: $main_light_color;
+}
+
+p, label, .google-link-btn {
+    color: $main_dark_color;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, button {
+    color: $main_dark_color;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+/* HEADER */
+#hamburger-btn {
+    background-color: $logo-color;
+    border: 2px solid $impact-color;
+    margin: -6rem -5rem 0 3rem;
+
+}
+
+.logo-header {
+    max-height: 10rem;
+}
+
+// .main-header {
+//     -webkit-text-stroke: 1px $logo-color;
+//     // color: rgb(255, 255, 247);
+//     text-shadow: 3px 3px 0 $impact-color,
+//         -1px -1px 0 $impact-color,
+//         1px -1px 0 $impact-color,
+//         -1px 1px 0 $impact-color,
+//         1px 1px 0 $impact-color;
+// }
+
+/* PARAGRAPHS */
+.section-header {
+  margin-bottom: 1rem;
+}
+
+.fa-grip-lines-vertical {
+    color: $impact-color;
+    margin-right: .6rem;
+}
+
+.paragraph-image {
+    max-width: 70%;
+}
+
+/* CARDS */
+.card {
+    border: 1px solid $impact-color;
+    background-color: rgb(255, 255, 247);
+}
+
+.card-text p {
+    color: $logo-color;
+}
+
+.price-button {
+  border: none;
+  background-color: rgb(255, 255, 247);
+  color: $main_dark_color;
+}
+
+.price-button:hover {
+  color: $impact-color;
+}
+
+.price-button:focus {
+  border: none;
+}
+
+.popover {
+    background: rgb(255, 255, 247);
+    color: $main_dark_color;
+    border: 2px solid $impact-color;
+}
+
+/* TABLE */
+th {
+    color: $main-dark-color;
+}
+
+td {
+    color: $logo-color;
+}
+
+.fa-slash {
+  color: $impact-color;
+}
+
+.table-side-label {
+    padding-right: 3rem !important;
+    font-size: 90%;
+}
+
+/* ACCESS */
+.external-link {
+    color: $main_dark_color;
+}
+
+.external-link:hover {
+    color: $main_dark_color;
+}
+
+/* CONTACT */
+.contact-link {
+  color: $main_dark_color;
+}
+
+.contact-link:hover {
+  color: $impact-color;
+  text-decoration: none;
+}
+
+.google-link-btn {
+  border: 1px solid $main_dark_color;
+}
+
+.google-link-btn:hover {
+  color: $impact-color;
+}
+
+.bottom-btn {
+    color: $impact-color;
+    background-color:$logo-color;
+    font-weight: bold;
+    font-size: 110%;
+    padding: 1rem;
+    border: 1px solid $impact-color;
+}
+
+.bottom-btn:hover {
+    color: $main-dark-color;
+    border: 1px solid $main_dark_color;
+    background-color: $main_light_color;
+}
+
+/* FORM */
+.modal-content {
+  background-color: rgb(255, 255, 247);
+}
+
+.modal-logo {
+    max-height: 3rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.modal-header {
+  border-bottom: 2px solid $impact-color;
+}
+
+.modal-footer {
+  border-top: 2px solid $impact-color;
+}
+
+.form-icon {
+    color: $impact-color;
+}
+
+label {
+    font-weight: bold;
+    color: $main_dark_color;
+}
+
+.form-control {
+    border: 1px solid $impact-color;
+    background-color: rgb(255, 255, 247);
+}
+
+.form-control:focus{
+  background-color: rgb(255, 255, 247);
+}
+
+.btn-ok {
+    background-color: $impact-color;
+    border: 1px solid $logo_color;
+    color: $logo_color;
+    font-weight: bold;
+}
+
+.btn-ok:hover {
+    color: $main_dark_color;
+    background-color: $main_light_color;
+    border: 1px solid $main-dark-color;
+}
+
+.btn-cancel {
+    background-color: $logo_color;
+    border: 1px solid $impact-color;
+    color: $impact-color;
+    font-weight: bold;
+}
+
+.btn-cancel:hover {
+    color: $main_dark_color;
+    background-color: $main_light_color;
+    border: 1px solid $main-dark-color;
+}
+
+/* FOOTER */
+.footer-logo {
+  max-height: 4rem;
+}
+
+.footer-icon {
+    color: $main_dark_color !important;
+    font-size: 20px !important;
+    margin-top: 10px !important;
+    margin-bottom: 5px !important;;
+}
+
+.footer-icon:hover {
+    color: #5d4037 !important ;
+}
+
+/* SIDENAV */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: $logo-color;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: $impact-color;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: $main_light_color;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sidebar-btn {
+    margin-top: 10px;
+    color: $impact-color;
+    border: 1px solid $impact-color;
+}
+
+.sidebar-btn:hover {
+    background-color: $main_light_color;
+    color: $main_dark_color;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-width: 576px) {
+
+    #hamburger-btn {
+        margin: -7rem -5rem 0 1rem;
+    }
+
+    .table-side-label {
+        padding-right: 1rem !important;
+    }
+
+    .table-side-header {
+      font-size: 60%;
+    }
+}

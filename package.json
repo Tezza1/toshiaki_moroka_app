@@ -4,7 +4,8 @@
   "description": "\"For Qs Massage\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,7 @@
     "Mongoose",
     "MongoDB",
     "EJS",
+    "Sass",
     "Heroku"
   ],
   "author": "Terry Shenker",
@@ -26,6 +28,7 @@
   "homepage": "https://github.com/Tezza1/toshiaki_moroka_app#readme",
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "node-sass": "^4.12.0"
   }
 }
