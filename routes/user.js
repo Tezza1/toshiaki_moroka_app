@@ -2,13 +2,13 @@ const express = require('express');
 const router = express.Router();
 
 // using passport local strategy to authenticate login
-router.get('/login', (req, res) => {
+router.post('/login', (req, res) => {
     /*passport.authenticate('local', {
         successRedirect: '/projects/dashboard',
         failureRedirect: '/users/login',
         failureFlash: true
     })(req, res, next);*/
-    res.send("Authenticate me please");
+    res.render('dashboard');
 
 });
 
